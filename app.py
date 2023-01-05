@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route("/" , methods=['POST','get'])
 def index():
-    return render_template('flask.html')
+    return "hai"
 
 if __name__ == "__main__":
     app.run(debug=True)
